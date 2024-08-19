@@ -1,7 +1,8 @@
+import HomeApp from "./assets/components/Home";
 import "./App.css";
 
 function App() {
-  return <h1>Hello</h1>;
+  return <HomeApp />;
 }
 
 export default App;
