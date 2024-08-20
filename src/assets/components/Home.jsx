@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function HomeApp({ title }) {
+function HomeApp({ title = "no hay titulo" }) {
   return (
     <>
       <h1>Home</h1>
@@ -12,5 +12,5 @@ function HomeApp({ title }) {
 export default HomeApp;
 
 HomeApp.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 };
