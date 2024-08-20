@@ -3,7 +3,7 @@ import CounterApp from "./assets/components/CounterApp";
 import "./App.css";
 
 function App() {
-  return <CounterApp value={10} />;
+  return <CounterApp />;
 }
 
 export default App;
