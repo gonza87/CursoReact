@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function HomeApp({ title }) {
   return (
     <>
@@ -8,3 +10,7 @@ function HomeApp({ title }) {
 }
 
 export default HomeApp;
+
+HomeApp.propTypes = {
+  title: PropTypes.string.isRequired,
+};
