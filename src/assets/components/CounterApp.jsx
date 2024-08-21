@@ -17,12 +17,14 @@ function CounterApp({ value }) {
   };
 
   return (
-    <div>
+    <div className="contenedorCount">
       <h1>CounterApp</h1>
       <h2>{count}</h2>
-      <button onClick={handleAdd}>add</button>
-      <button onClick={handleSub}>subtract</button>
-      <button onClick={handleReset}>reset</button>
+      <div className="contenedorButtons">
+        <button onClick={handleAdd}>add</button>
+        <button onClick={handleSub}>subtract</button>
+        <button onClick={handleReset}>reset</button>
+      </div>
     </div>
   );
 }
