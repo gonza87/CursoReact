@@ -12,13 +12,18 @@ function CounterApp({ value }) {
     setCount((prev) => (prev >= 1 ? prev - 1 : 0));
   };
 
+  const handleReset = () => {
+    setCount(value);
+  };
+
   return (
-    <>
+    <div>
       <h1>CounterApp</h1>
       <h2>{count}</h2>
       <button onClick={handleAdd}>add</button>
       <button onClick={handleSub}>subtract</button>
-    </>
+      <button onClick={handleReset}>reset</button>
+    </div>
   );
 }
 
