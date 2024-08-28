@@ -5,5 +5,7 @@ describe('Pruebas en 07-deses-arr', () => {
         expect(letters).toBe('ABC');
         expect(numbers).toBe(123);
         
+        expect(typeof letters).toBe('string');
+        expect(typeof numbers).toBe('number');
     });
 });
