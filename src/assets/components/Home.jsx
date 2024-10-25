@@ -4,6 +4,7 @@ function HomeApp({ title = "no hay titulo" }) {
   return (
     <>
       <h1>Home</h1>
+      <p>test</p>
       <h2>{title}</h2>
       <p>test</p>
     </>
