@@ -1,12 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: beige;
 }
 
-.contenedorCount{
- 
+.contenedorCount {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,20 +13,18 @@
   height: 100vh;
 }
 
-.contenedorButtons{
-  margin-top: 10px;
+.contenedorButtons {
+  margin-top: 15px;
   display: flex;
   gap: 5px;
-  
 }
 
-.contenedorButtons button{
+.contenedorButtons button {
   font-size: 1.5rem;
   padding: 5px 10px;
   border-style: none;
   border-radius: 5px;
- background-color: rgb(42, 50, 165);
- color: white;
- cursor: pointer;
+  background-color: rgb(42, 50, 165);
+  color: white;
+  cursor: pointer;
 }
-
